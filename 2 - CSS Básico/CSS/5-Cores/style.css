@@ -1,0 +1,25 @@
+#principal{
+	color:red;
+}
+
+#titulo{
+	color:rgba(0, 100, 200, 0.6);
+}
+
+.texto_verde{
+	color:green;
+}
+
+
+
+/*Site cores hexadecimais: https://www.w3schools.com/colors/colors_hex.asp */
+
+/*
+Aula 5 - Cores
+Modos de inserir cor:
+- color: dodgerblue; - nome da cor
+- color: rgb(22, 33, 100); - rgb da cor
+- color: rgba(22, 33, 100, 0.1); - rgba da cor
+- color: #FFFF; - Cor em hexadecimal
+OBS:  O ultimo valor de rgba é referente opacidade, onde vai de 0.0 até 1.0;
+*/

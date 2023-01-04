@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Input html</title>
+	</head>
+	<body>
+		<form method="GET" action="">
+			<input type="color" name="cor">
+			<br>
+			<input type="date" name="data" max="2018-12-31">
+			<br>
+			<input type="submit" name="">
+		</form>
+	</body>
+</html>
+
+<!-- 
+<input type="color" name="cor"> - Habilita uma box de escolha de cor
+L realizar o submit da cor, retorna o valor hexadecimal desta cor na url.
+Importante: é importante sempre analisar se o navegador possui suporte para as tags, pois, neste uso do input type color, o navegador safari do IOS não habilita esta função.
+
+<input type="date" name="data" max="2018-12-31> - Habilita função de escolha de data para o usuário.
+L obs: realizar o submit da data, retorna a data na url.
+L obs 2: o formato desta função é yyyy/mm/dd (formato americano.)
+L max="2018-12-31 - Esta função do type date, informa que a data máxima é no dia demarcado, conforme exemplo, logo, se tentarmos inserir uma data a frente, não será permitido
+
+
+
+ -->

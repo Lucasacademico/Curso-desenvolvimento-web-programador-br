@@ -1,0 +1,33 @@
+<html>
+    <body>
+        <script>
+
+            var idade = 25;
+            var maiorque20 = idade > 20
+            var menorque30 = idade < 30
+            var entre = maiorque20 && menorque30
+
+            console.log("Maior que vinte", maiorque20);
+            console.log("Menor que trinta", menorque30);
+            console.log("Entre vinte e trinta", entre);
+
+        </script>
+    </body>
+</html>
+
+<!-- 
+    Neste exemplo acima estamos realizando um comparativo da variavel "idade" com
+    os valores 20 e 20 (ambos inseridos em variaveis também).
+    - Se a idade for 25, as variaveis maiorque20 e maiorque30 serão ambas "true"
+    - Se a idade for 19, a variavel menorque30 será true, porém a menorque20 será false
+    - Se a idade for 31, a variavel menorque30 será false, porém a menorque20 será true
+    ou seja, se UMA ou AMBAS serão verdadeiras ou falsas, dependerá da lógica aplicada.
+ 
+    Aplicando a var "entre", que análisa se a idade esta entre 20 e 30, ela irá 
+    utilizar da função && para realizar o comparativo.
+    - No caso da idade = 25, a variavel "entre" será true
+    - No caso da idade = 31, a variavel "entre" será false
+    - No caso da idade = 19, a variavel "entre" será false
+    Observe que ambas as variaveis tem que ser "true" conforme parte 1 da aula.
+
+-->

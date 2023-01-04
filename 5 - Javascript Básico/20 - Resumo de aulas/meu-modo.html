@@ -1,0 +1,47 @@
+<html>
+    <body>
+        <script>
+
+            var nome = ["Jubileu", "Matheuzinho", "Jorcleidson"];
+            var nota1 = [5.1, 6.3, 9.1];
+            var nota2 = [7, 7, 10];
+
+            function media(n1, n2){
+                return (n1 + n2) / 2;
+            }
+
+            function aprovation(media){
+                
+                if(media > 7){
+                    return "Aprovado";
+                }
+                else{
+                    return "Reprovado";
+                }
+            }
+
+            for(var i in nome){
+                n2 = nota1[i];
+                n1 = nota2[i];
+
+                console.log(nome[i] + " - " + nota1[i] + " + " + nota2[i] + " = " + media(n1, n2) + 
+                " - " + aprovation(media(n1, n2)))
+                // console.log(nome[i]);
+                // console.log(nota1[i]);
+                // console.log(nota2[i]);
+                // console.log(media(n1, n2));
+                // console.log(aprovation(media(n1, n2)))
+            }
+
+        </script>
+    </body>
+</html>
+
+<!-- 
+    Desafio:
+    - Coletar Nome do aluno
+    - Nota 1 do aluno
+    - Nota 2 do aluno
+    - média do aluno
+    - Verificar se aluno esta aprovado ou reprovado
+ -->

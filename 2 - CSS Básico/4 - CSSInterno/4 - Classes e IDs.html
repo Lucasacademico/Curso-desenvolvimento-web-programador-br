@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+
+		<meta charset="utf-8">
+		<title>Minha primeira página</title>
+		<link href="style.css" rel="stylesheet">
+
+	</head>
+
+	<body>
+        
+        <a href="#dispositivos-tec">Dispositivos</a>
+			<h1 id="titulo">Titulo 1</h1>
+				<h2>Subtitulo</h2>
+					<p id="principal">
+						A Lorem Ipsum egy egyszerû szövegrészlete, szövegutánzata a betûszedõ és nyomdaiparnak.A Lorem Ipsum az 1500-as évek óta standard szövegrészletként szolgált az iparban;egy ismeretlen nyomdász összeállította a betûkészletét és egy példa-könyvet vagy szönyomott papírra, ezt használta. Nem csak 5 évszázadot élt túl, de az elektronikus betûkészleteknélis változatlanul megmaradt. Az 1960-as években népszerûsítették a Lorem Ipsum részleteke magukbafoglaló Letraset lapokkal, és legutóbb softwarekkel mint például az Aldus Pagemaker.
+			     	</p>
+     
+        
+		<p class="texto_verde">Esse é um <strong>texto em negrito</strong></p>
+		<p class="texto_verde">Esse é um <em>texto em itálico</em></p>
+		<p>Esse é um <mark>texto com marcação</mark></p>
+		<p>Esse é um <small>texto com a tag small</small></p>
+		<p>Esse é um <del>texto riscado</del></p>
+    	<p>Esse é um <ins>texto sublinhado</ins></p>
+		<p>Esse é um <sub>texto subscript</sub></p>
+		<p>Esse é um <sup>Texto superscript</sup></p>
+    
+
+        <h2>Imagens</h2>
+        	<img id="dispositivos-tec" src="../imagens/img-1.PNG" alt="Dispositivos tecnologicos" height="150"
+
+	</body>
+</html>
+
+
+<!--
+
+a tag <a> de ancoragem, cria um link, que é ligado com a id da imagem de dispositivos tecnologicos, após clicado, a tela irá direto para a imagem
+
+	<a href="#dispositivos-tec">Dispositivos</a> faz com que a palavra dispositivo seja clicavel, e envie o usuário direto para a imagem.
+
+O atributo id="nome-do-identificador" serve para identificar a tag com esta ID. Tags com este atributo poderam ser configuradas a parte de outras tags
+	
+	ex: Se eu escolher personalizar a tag <p>, todas as outras serão personalizadas juntas, pois não há uma identificação a parte. Se personalizarmos uma tag <p> com um atributo id="x", somente a tag com este id,será personalizado, mesmo que haja outras tag <p> no html.
+
+class="nome-da-classe" - tem uma funcionalidade parecida com o atributo ID, porém pode ser inserida em mais de uma tag
+
+OBS: no arquivo style.css o identificador deve ser chamado com: #nomedoidentificador{}, e dentro deverá ser inserido os parâmetros de personalização.
+-->
+
+<!-- 
+<img id="dispositivos-tec" src="imagens/img-1.PNG" alt="Dispositivos tecnologicos" height="150"
+
+	<img> - representa a inserção de imagem no documento
+
+	Atributo id="dispositivos-tec" - Assina um identificado para a imagem
+
+	src="../imagens/img-1.PNG" - O atributo source serve para apontar o local do arquivo e o arquivo de imagem que irá aparecer na pagina
+
+	alt="Dispositivos tecnologicos" - Serve para descrever qual é a imagem sendo inserida, importante para mecanismos de busca.
+
+	height="150 - configura a altura da imagem em 150px
+
+-->

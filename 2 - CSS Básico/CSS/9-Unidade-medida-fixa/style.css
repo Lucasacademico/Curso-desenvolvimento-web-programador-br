@@ -1,0 +1,92 @@
+body{
+
+}
+
+#paragrafos{
+	background: red;
+}
+
+.subDiv{
+	background-color: yellow;
+}
+
+#titulo{
+	color:rgba(0, 100, 200, 0.6);
+}
+
+.texto-verde{
+	color:green;
+}
+
+#cm{
+	background-color: blue;
+	width: 1cm;
+	height: 1cm;
+}
+
+#mm{
+	background-color: red;
+	width: 5mm;
+	height: 5mm;
+}
+
+#in{
+	background-color: green;
+	width:1in;
+	height:1in;
+}
+
+#px{
+	background-color: red;
+	width: 10px;
+	height: 10px;
+}
+
+#pt{
+	background-color: pink;
+	width: 10pt;
+	height: 10pt;
+}
+
+#pc{
+	background-color: orange;
+	width: 1pc;
+	height: 1pc;
+}
+
+/*
+Aula 9 - unidade de medida fixa
+
+Largura
+- widths: 1cm; faz com que a largura da background fique com 1cm
+- width: 5mm; faz com que a largura da background fique com 5mm
+
+Altura
+- height: 1cm; faz com que a altura da background fique 1cm
+- height: 5mm; faz com que a altura da background fique 5mm
+
+Polegadas (inches)
+- width: 1in; faz com que a largura fique com uma polegada de distancia
+- height: 1in; faz com que a altura fique com uma polegada de distancia
+obs: 1 in (1 polegada), equivale à 2,54 cm;
+
+Pixel
+- width: 1px; faz com que a largura fique com um pixel de distancia
+- height: 1px; faz com que a altura fique com um pixel de distancia
+obs: o pixel é muito pequeno, logo o tamanho de 1px quase é imperceptivel;
+obs 2:  é o menor elemento de uma tela;
+
+Ponto
+- width: 1px; faz com que a largura fique com um ponto de distancia
+- height: 1px; faz com que a altura fique com um ponto de distancia
+obs 1: possui relação com o pixel;
+obs 2: dependendo do dispositivo que visualizará o ponto, o ponto terá vários pixels;
+obs 3: caso o ponto possua tamanho baixo, terá o mesmo tamanho do pixel;
+
+Pika
+- width: 1pc; faz com que a largura fique com uma pika de distância
+- height: 1pc; faz com que a altura fique com uma pika de distância
+obs:  1pc = 12pt;
+
+
+*/

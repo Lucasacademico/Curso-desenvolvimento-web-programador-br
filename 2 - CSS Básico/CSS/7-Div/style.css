@@ -1,0 +1,27 @@
+body{
+
+}
+
+#paragrafos{
+	background: red;
+}
+
+.subDiv{
+	background-color: yellow;
+}
+
+#titulo{
+	color:rgba(0, 100, 200, 0.6);
+}
+
+.texto-verde{
+	color:green;
+}
+
+/*
+	background-image: url(../../Fundos/fundo-1.PNG);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	*/

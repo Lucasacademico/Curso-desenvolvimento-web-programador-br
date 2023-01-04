@@ -1,0 +1,81 @@
+
+#titulo{
+	color:rgba(0, 100, 200, 0.6);
+}
+
+.texto-verde{
+	color:green;
+}
+
+/*
+html{
+	font-size: 20px;
+}
+*/
+
+.container{
+	/*font-size: 20px;*/
+	/*width: 200px;*/
+	/*width: 50vw;*/
+	/*width: 50vh;*/
+	/*width: 50vmin;*/
+	width: 50vmax;
+	background: red;
+/*elemento pai do container = body*/
+}
+
+.inside{
+	/*font-size: 1rem;*/
+	/*width: 1em;*/
+	/*width: 100px;*/
+	width: 100%;
+	background: blue;
+/*elemento pai do inside = container*/
+}
+
+/*
+	Aula - Unidade de medidas - referencia
+
+- font-size: 20px; - modifica o tamanho da fonte, do tamanho de 20px
+obs: o tamanho padrão das fontes é de 16px;
+
+- font-size: 1em; - modifica o tamano do elemento.
+	ex1 : como a div "inside" esta dentro da "container", 1em significa que irá herdar o
+	elemento de uma tag superior, ou seja, a div com a class "inside", esta dentro da div
+	com a classe "container", logo 1em irá herdar o tamanho da font 20px da class "container"
+	
+	ex2: se mudarmos o tamanho para 2em, então a fonte irá dobrar o tamanho da fonte, pois é;
+	2em = 2 x 20px, assim como 1em = 1 x 20px (lembrando), que 20px é o tamanho que é 
+	determinado pelo programador.
+obs:  se o valor do container for alterado, automaticamente o valor do inside será alterado;
+também.
+obs2: a unidade de medida "em" sempre vai herdar os parâmetros da div superior, e sempre
+estará ligada ao tamanho da fonte, mas pode ser utilizada para outros parâmetros.
+
+- font-size: 1rem; - faz referencia ao tamanho do elemento raíz (que no caso é o tamanho
+da fonte do elemento da tag html), tem a mesma funcionalidade de herdar, e pode ser 
+dobrada (ex:  2rem) com referencia ao elemento raiz.
+
+- width: 50vw; essa unidade faz referencia à largura da janela (largura de 50vw.
+ex:  1vw = 1% da janela;
+ex2: 50vw = 50% da janela;
+obs:  nos exemplos acima o "vw" esta contido na largura.
+obs2: a largura vai ficar mudando conforme aumentamos ou diminuimos a largura da janela.;
+
+- width: 50vh; - praticamente a mesma funcionalidade do "vw", porém para afetar a largura
+da barra, deve ser alterado o tamanho da janela pela altura
+obs: a largura vai ficar mudando conforme aumentamos ou diminuimos a altura da janela.;
+
+- width: 50vmin - mmesma coisa do "vw" e "vh", porém só afetará a barra conforme
+o menor tamanho da janela (seja largura ou altura).
+ex:  se a janela ta com altura no maximo, porém largura pela metade, se eu mudar a largura;
+da janela, a barra irá se locomover, e vice e versa.
+
+- width: 50vmax; - mesma coisa do "vmin", porém só afetará a barra conforme o maior tamanho
+da janela (seja largura ou altura).
+
+- width: 100%; pega a porcentagem do tamanho do elemento pai (inside pega 100% do tamanho
+do container que é elemento pai).
+Obs:  valores vão mudando conforme a porcentagem inserida;
+
+*/

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Minha primeira página</title>
+        <link href="style.css" rel="stylesheet">
+	</head>
+
+	<body>
+        <a href="#dispositivos-tec">Dispositivos</a>
+			<h1 id="titulo">Titulo 1</h1>
+			<h2>Subtitulo</h2>
+			<p id="principal">
+				A Lorem Ipsum egy egyszerû szövegrészlete, szövegutánzata a betûszedõ és nyomdaiparnak. 
+				A Lorem Ipsum az 1500-as évek óta standard szövegrészletként szolgált az iparban; mikor 
+				egy ismeretlen nyomdász összeállította a betûkészletét és egy példa-könyvet vagy szöveget 
+				nyomott papírra, ezt használta. Nem csak 5 évszázadot élt túl, de az elektronikus betûkészleteknél 
+				is változatlanul megmaradt. Az 1960-as években népszerûsítették a Lorem Ipsum részleteket 
+			</p>
+
+		<p class="texto-verde">Esse é um <strong>texto em negrito</strong></p>
+		<p class="texto-verde">Esse é um <em>texto em itálico</em></p>
+		<p class="texto-verde">Esse é um <mark>texto com marcação</mark></p>
+		<p>Esse é um <small>texto com a tag small</small></p>
+		<p>Esse é um <del>texto riscado</del></p>
+    	<p>Esse é um <ins>texto sublinhado</ins></p>
+		<p>Esse é um <sub>texto subscript</sub></p>
+		<p>Esse é um <sup>Texto superscript</sup></p>
+    
+        <h2>Imagens</h2>
+       	 	<img id="dispositivos-tec" src="../imagens/img-1.PNG" alt="Dispositivos tecnologicos" height="150"
+	</body>
+</html>
+
+<!--
+Aula 6 - Background
+
+IMPORTANTE: As configs abaixo, são inseridas no CSS, com a chamada de classe/ID
+
+Modos de inserir background por cor: 
+- background-color: nome da cor;
+- background-color: rgb(22, 33, 100);
+- background-color: rgba(22, 33, 100, 0.1);
+- background-color: #FFFF;
+
+Modos de inserir imagens background: ;
+Caso na mesma pasta: 
+- background-image: url(/nomedapasta/nomedoarquivodeimagem);
+Caso em uma pasta diferente: 
+- background-image: url(../nomedapasta/nomedoarquivodeimagem);
+OBS: os pontos indicam que o arquivo esta um nivel anterior
+
+Para não repetir a imagem: 
+- background-repeat: no-repeat; - para não repetir a imagem
+- background-repeat: repeat-y; - para repetir a imagem somente na vertical
+- background-repeat: repeat-x; - para repetir a imagem somente na horizontal
+OBS: deve ser utilizado logo abaixo do background-image.
+
+Para cobrir a imagem em toda a pagina: 
+- background-size: cover;
+
+Para deixar a imagem fixa: ;
+- background-attachment: fixed; 
+OBS:  Esta opção deixa a imagem fixa, e quando scrolamos a pagina, a imagem nao se move.
+
+Para deixar o background rolar junto com a página: 
+- background-attachment: scroll; 
+
+Para deixar o background rolar junto com o elemento: 
+- background-attachment: local; 
+
+Para centralizar o background:
+ - background-position: center;
+
+ Todas os elementos do backgroud podem ser inseridos em uma única linha: ;
+ ex: - background: url(../Fundos/fundo-1.PNG) no-repeat fixed center;
+ OBS:  deve seguir a seguinte ordem: background: bg-color bg-image position/bg-size bg-repeat bg-origin bg-clip bg-attachment initial|inherit;
+-->

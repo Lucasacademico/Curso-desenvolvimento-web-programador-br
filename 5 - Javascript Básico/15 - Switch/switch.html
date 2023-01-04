@@ -1,0 +1,77 @@
+<html>
+    <body>
+        <script>
+
+            var nota1 = 8.0;
+            var nota2 = 2.8;
+            var media = (nota1 + nota2) / 2;
+            var conceito = ""
+
+            if(media >= 8){
+                conceito = "Ótimo"
+            }
+            else if (media > 6.5){
+                conceito = "Bom"
+            }
+            else{
+                conceito = "Regular"
+            }
+
+            console.log(media)
+            console.log(conceito)
+
+            switch(conceito){
+
+                case "Ótimo":
+                    console.log("Parabéns vc é foda");
+                        break;
+
+                case "Bom":
+                    console.log("Quase lá");
+                        break;
+
+                case "Regular":
+                    console.log("Estude mais");
+                        break;
+
+                default:
+                    console.log("Erro");
+                        break;
+            }
+
+        </script>
+    </body>
+</html>
+
+<!-- 
+    O Switch é uma função parecida com o if, porém permite escolha de opção em cima de um parametro que 
+    fica dentro do switch().
+
+    Analisando o código:
+    - temos condicionais que analisam a nota do aluno em conceitos (ótimo, bom, regular)
+    - após a confirmação da média e conceito, entramos na função switch.
+
+     switch(conceito){
+
+                case "Ótimo":
+                    console.log("Parabéns vc é foda");
+                        break;
+
+                case "Bom":
+                    console.log("Quase lá");
+                        break;
+
+                case "Regular":
+                    console.log("Estude mais");
+                        break;
+
+                default:
+                    console.log("Erro");
+                        break;
+            }
+        - A função switch gira em torno do valor do "conceito"
+        - cada case retorna um valor, dependendo da classificação do conceito que o aluno recebeu.
+        - temos a função default para retornar um valor caso o valor não adentre os valores dos cases.
+        - devemos sempre inserir o break no final do case, se não o código irá demonstrar em tela todos
+        os dados dos cases.
+ -->

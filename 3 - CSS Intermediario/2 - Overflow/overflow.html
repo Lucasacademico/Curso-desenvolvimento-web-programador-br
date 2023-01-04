@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Overflow</title>
+		<style type="text/css">
+			body{
+				font-size: 1.2rem;
+			}
+
+			#container-visible{
+				color: black;
+				background-color: blue;
+				width: 300px;
+				height: 100px;
+				overflow: visible;
+				border-style: solid;
+				border-color: black;
+			}
+
+			#container-hidden{
+				color: yellow;
+				background-color: red;
+				width: 300px;
+				height: 100px;
+				overflow: hidden;
+				border-style: solid;
+				border-color: black;	
+			}
+
+			#container-scroll{
+				color: white;
+				background-color: blue;
+				width: 300px;
+				height: 100px;
+				overflow: scroll;
+				border-style: solid;
+				border-color: black;
+			}
+
+			#container-auto{
+				color: white;
+				background-color: green;
+				width: 300px;
+				height: 100px;
+				overflow: auto;
+				border-style: solid;
+				border-color: black;
+			}
+
+			#container-imagem{
+				background-color: green;
+				overflow: auto;
+				border-style: solid;
+				border-color: black;
+				width: 400px;
+				height: 400px;
+			}
+
+
+		</style>
+	</head>
+	<body>
+
+		<div id="container-visible">
+			Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto 
+			Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto 
+			Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto 
+			Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto
+		</div>
+
+		<br><br><br><br><br>
+
+		<div id="container-hidden">
+			Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto 
+			Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto 
+			Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto 
+			Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto
+		</div>
+
+		<br>
+
+		<div id="container-scroll">
+			Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto 
+			Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto 
+			Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto 
+			Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto
+		</div>
+
+		<br>
+
+		<div id="container-auto">
+			Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto 
+			Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto 
+			Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto 
+			Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto
+		</div>
+
+		<br><br>
+		<div id="container-scroll">
+			<img id="container-imagem" src="assets/computer-png.webp">
+		</div>
+
+	</body>
+</html>
+
+<!--
+Overflow
+- O overflow controla oq irá acontecer com o conteúdo que é muito grande pra estar dentro de uma área.
+
+- overflow: visible; - Faz com que informe que o texto deve continuar visivel mesmo não tendo espaço dentro 
+da área demarcada, logo irá continuar fora da área o restante do texto.
+- overflow: hidden; - Faz com que caso o texto seja maior do que o container demarcado, deverá excluir 
+tudo que NÃO ficar dentro do container, porém excluindo o restante do conteúdo
+- overflow: scroll; - Faz com que habilite a opção de escrolar o texto dentro do container para baixo, 
+para acessarmos o restante do texto.
+- overflow: auto; - só insere o scroll onde o container precisar (podendo ser vertical ou horizontal)
+
+- overflow-x: scroll - mostra o scroll somente na parte de baixo
+- overflow-y: scroll - mostra o scroll somente na parte da direita
+
+obs: podemos inserir o overflow também em imagens
+
+-->

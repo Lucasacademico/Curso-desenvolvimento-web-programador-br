@@ -1,0 +1,56 @@
+<html>
+    <body>
+        <script>
+            function media(n1, n2) {
+                var nota1 = n1;
+                var nota2 = n2;
+                var media = (nota1 + nota2) / 2;
+                console.log(media);
+            }
+            media(5, 10);
+            media(6, 8);            
+        </script>
+    </body>
+</html>
+
+<!-- 
+    Um modo mais interessante de imprimir notas, sem definir valores dentro das variaveis nota1 e nota2,
+    é atribuindo as variveis n1 e n2 para nota1 e nota2. Logo deveremos inserir as variveis n1 e n2, dentro
+    dos parenteses ex: media(n1, n2). Com isso quando invocarmos a função média, basta que coloquemos os valores
+    que eu quero que o código realize o calculo da media, vamos análisar o código:
+
+    Análise do código:
+
+    function media(n1, n2) {
+        var nota1 = n1;
+        var nota2 = n2;
+        var media = (nota1 + nota2) / 2;
+        console.log(media);
+    }
+    media(5, 10);
+    media(6, 8);
+                printa: 7.5 e 7
+
+    - function media(n1, n2) - desta vez criamos variaveis n1 e n2, e colocamos dentro do parametro media.
+    - var nota1 = n1;
+      var nota2 = n2;
+      var media = (nota1 + nota2) / 2;
+      console.log(media);
+       L var nota1 = n1; - em vez de receber o valor, recebe a var n1
+       L var nota2 = n2; - em vez de receber o valor, recebe a var n2
+       obs: o restante permanece alterado.
+    - media(5, 10); - desta vez o prog irá inserir os valores n1 e n2 no momento que o código esta sendo
+    invocado, e a média já será calculada e imprimida no console.
+    - media(6, 8); - uma segunda invocação da função irá acarretar em um calculo diferente, sem excluir
+    a invocação anterior.
+    IMPORTANTE: eu posso invocar quantas médias com valores diferente eu quiser, e o console apenas dará o
+    resultado que eu queira no console.
+
+
+    perceba que este metodo é muito mais pratico, pois supondo que precisassemos calcular várias médias de 
+    alunos, precisariamos ficar criando variaveis para cada aluno, e isto iria criar um código grande.
+    Desta maneira, basta atribuirmos os valores diretamente na variaveis n1 e n2 na função media(n1,n2).
+
+    Porém ainda não esta perfeito....
+
+ -->

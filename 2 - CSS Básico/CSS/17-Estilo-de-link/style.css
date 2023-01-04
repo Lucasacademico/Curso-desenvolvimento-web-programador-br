@@ -1,0 +1,37 @@
+.links{
+
+	text-decoration: none;
+	color: #bc2035;
+	cursor: crosshair;
+	padding: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 8px;
+	border: 2px solid #bc2035;
+}
+
+.links:hover{
+	background: #bc2035;
+	color: white;
+}
+
+.links:active{
+
+}
+
+.links:visited{
+	border-color: #ddd;
+	color: #ddd;
+}
+
+/*
+	Aula 17 - Estilo de link 
+
+	Cursor: crosshair; - configura o tipo de cursor de tipo "crosshair", que é uma cruz
+
+	.links:visited{ color: gray; } - faz com que após clicado eu insira a aparencia do link após ter sido visitado.
+	.links:hover{} - faz com que no momento que o mouse fica em cima do botão, mude a aparencia do botão
+	.links:active{} - faz o mesmo parecido que o link:hover, porém só quando clicado (em vez de apenas
+	 passar o mouse em cima)
+	.links:link{}
+*/

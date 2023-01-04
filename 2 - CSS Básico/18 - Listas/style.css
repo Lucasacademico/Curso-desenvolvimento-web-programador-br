@@ -1,0 +1,53 @@
+ul{
+	list-style-type: disc;
+	list-style-position: inside;
+	margin: 0;
+	padding: 10px;
+	background-color: #f3e;
+}
+
+ol{
+	list-style-type: upper-alpha;
+	list-style-position: inside;
+	margin: 0;
+	padding: 10px;
+	background-color: #59e;
+}
+
+li{
+	border: 1px solid;
+	background-color: yellow;
+	margin: 5px;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+/*
+Para não-ordenados: 
+- list-style-type: none; - tira a marcação da lista (independente do tipo)
+- list-style-type: disc; - insere a bolinha preta na lista
+- list-style-type: circle; - insere uma borda de circulo na lista
+- list-style-type: square; - insere um quadrado na lista
+
+Para ordenados: 
+- list-style-type: upper-roman; - numero romano em maiusculo
+- list-style-type: lower-roman; - numero romano em minusculo
+- list-style-type: lower-alpha; - a b c... em minusculo
+- list-style-type: upper-alpha; - A B C... em maisculo
+
+Podemos criar bordas para os itens, assim fica parecendo uma tabela
+
+Podemos alterar a posição do icone da lista: ;
+- list-style-position: inside; - icone ficará dentro da borda criada (conforme ponto anterior)
+
+
+Podemos também inserir icones personalizados no lugar dos icones padrões: 
+- list-style-image: url("assets/nomedoarquivo.extensão");
+
+
+
+Para mais dicas:  
+
+https://www.w3schools.com/cssref/pr_list-style.asp
+
+*/

@@ -1,0 +1,55 @@
+p{
+	color: red;
+	/*text-align: justify;*/
+	/*text-transform: capitalize;*/
+	text-indent: 15px;
+	/*text-decoration: line-through;*/
+	/*letter-spacing: 1.2px; 
+	line-height: 50px;
+	word-spacing: 15px;*/
+	text-shadow: 2px 2px 5px black;
+}
+
+/*
+
+Text Align: alinha o texto 
+- text-align: left; - alinha o texto para a esquerda.
+- text-align: right; - alinha o texto para a direita.
+- text-align: center; - alinha o texto para o centro.
+- text-align: justify; - deixa o texto justificado
+
+Text transform: pode alterar tamanho e forma das letras
+- text-transform: uppercase; - texto todo em maiusculo
+- text-transform: lowercase; - texto todo em minusculo
+- text-transform: capitalize; - coloca a primeira letra de cada palavra em maisculo
+
+Text Ident: Identa o texto selecionado.
+- text-indent: 35px; - Cria identamento de 35px
+
+Text decoration: Responsável pela formatação do texto (ex: texto sublinhado).
+- text-decoration: underline; - Insere underline no texto.
+- text-decoration: overline; - Insere overline no texto
+- text-decoration: line-through; - Insere um riscado no texto
+- text-decoration: none; - retira configurações de decorations (caso seja padrão) ou 
+tenha sido configurado pelo proprio usuario.
+OBS:  podemos juntar tipos de decorations;
+
+Letter Spacing: Insere espaço entre letrase
+- letter-spacing: 1.2px; - espaçamento de 1.2px entre letras.
+obs: Pode receber valores negativos.
+
+Line Height: Cria um espaçamento de altura no texto
+- line-height: 10px; - Cria espaço de 10px de altura no texto
+- line-height: 2; - cria 2x o espaço pré-determinado de altura no texto.
+- line-height: 300%; - pode ser criado espaço com porcentagem
+obs: 200% = dobro (2x);
+
+Word Spacing:  Insere espaço entre palavras
+- word-spacing: 5px; - aumenta a distância entre palavras em 5px
+
+Text Shadow: Cria sombra nos textos;
+- text-shadow: 2px 2px 5px black; - seguindo a ordem, os valores de criação da sombra
+alteram: 2px de deslocamento para direita, 2px para deslocamento para baixo, 5px que cria 
+o desfoque, e black sendo a cor da sombra.
+
+*/

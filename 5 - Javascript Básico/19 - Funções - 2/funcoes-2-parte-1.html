@@ -1,0 +1,126 @@
+<html>
+    <body>
+        <script>
+            function saudacao() {
+                return "Eae bixo";   
+            }
+
+            var s = saudacao();
+            console.log(s);
+        </script>
+    </body>
+</html>
+
+<!-- 
+    Funções 2 Parte 1
+
+    Funcionalidade do código: 
+    - Criar uma função "saudacao" que retorne uma frase de saudação. 
+    - Criar uma variavel "s" para receber o retorno da função saudação.
+    - imprimir a variavel "s" que recebe o retorno da função. 
+
+    Análise do código:
+
+    function saudacao() {
+        return "Eae bixo";   
+    }
+
+    var s = saudacao();
+    console.log(s);
+
+    Detalhando o código:
+    - function saudacao() - Estrutura função saudacao();
+    - return "Eae bixo"; - Valor que a função saudacao() retorna.
+    - var s = saudacao(); - Criação da variavel "s" para receber o valor de retorno da função saudacao();
+    - console.log(s); - imprime o valor que a variavel "s" recebeu da função saudacao();
+
+    Algumas observações:
+    - No momento que escrevemos o código, as vezes esquecemos alguma linha, isso é muito comum.
+    
+    Ex1: 
+
+    Usando como exemplo linha "var s = saudacao();", se esquecermos de colocar o "()", o console irá imprimir:
+
+    ƒ saudacao() {
+        return "Eae bixo";   
+    }
+
+    Isto ocorre pois a falta de parenteses significa que estamos imprimindo toda a função saudacao(), e NÃO
+    o valor da função. Isto é uma funcionalidade possível do JS, e pode ser usado caso o prog deseje.
+
+    - Outro ponto, é como iremos imprimir o retorno do valor da função saudacao();
+
+    Ex2:
+
+    Podemos fazer simplesmente um console.log imprimir o retorno da função saudação, simplesmente inserindo
+    a função dentro do console.
+
+    function saudacao() {
+                return "Eae bixo";   
+            }
+
+            console.log(saudacao());
+
+    Neste exemplo o retorno da função é inserido dentro console - console.log(saudacao()); e será
+    imprimido na tela SOMENTE o valor da função, e NÃO a função por inteira.
+
+    - Outro modo é imprimindo a variavel "s" como uma função:
+
+    Ex3:
+
+    function saudacao() {
+        return "Eae bixo";   
+    }
+
+        var s = saudacao;
+        console.log(s());
+
+    Neste exemplo, pode concluir que no momento que atribuimos uma função à uma variavel, esta variavel
+    se torna uma função, e para não confundirmos, podemos fazer um paralelo:
+
+    A função em si, não será alterada:
+        function saudacao() {
+            return "Eae bixo";   
+        }
+        Caso 1:
+            var s = saudacao;
+            console.log(s());
+                Imprimirá: Eae bixo
+        
+        Caso 2:
+            var s = saudacao();
+            console.log(s);
+                Imprimirá: Eae bixo
+        
+        Caso 3: 
+            //sem necessidade de var "s"
+            console.log(saudacao());   
+                imprimirá: Eae bixo   
+
+        Caso 4:
+            var s = saudacao;
+            console.log(s);
+                imprimirá: 
+                    ƒ saudacao() {
+                        return "Eae bixo";   
+                    }
+        
+                    
+        Detalhando Caso 1: a var "s" recebe função saudacao SEM parentesis, se torna uma função, e imprime
+        o s() qué o valor return da função saudacao.
+
+        Detalhando Caso 2: a var "s" recebe a função saudacao() COM parentesis, recebendo o valor return da 
+        função saudacao(), e imprime o valor return da função saudacao.
+
+        Detalhando Caso 3: Neste caso, não atribuimos uma variavel para receber o retorno da função saudacao(),
+        apenas imprimimos diretamente o retorno da função dentro do console log (com parentesis).
+                    obs: se tirarmos o parentesis dentro do console lego, imprimirá o mesmo do caso 4.
+        
+        Detalhando Caso 4: a var "s" recebe função saudacao SEM parentesis, se torna uma função, e imprime
+        o s SEM parentesis, imprimindo toda a função (e não somente o valor return).
+    
+
+        Resumindo: existem diversas maneiras de imprimirmos um retorno de função ou até mesmo a própria função,
+        vale ressaltar o retorno da função é um elemento da função, e a função em si é toda a função + elemento.
+
+ -->

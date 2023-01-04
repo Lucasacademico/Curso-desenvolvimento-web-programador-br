@@ -1,0 +1,39 @@
+<html>
+    <body>
+        <script>
+            function media(n1, n2){
+                var nota1 = n1;
+                var nota2 = n2;
+                var media = (nota1 + nota2) / 2;
+                // console.log(media);
+                return media;    
+            }
+            var result1 = media(6, 7);
+            var result2 = media(8, 7);
+
+            console.log(result1 + " e " + result2)
+        </script>
+    </body>
+</html>
+
+<!-- 
+    Melhorando o código, podemos retornar um valor media na função (ainda não sei o pq isso é bom).
+
+    Analisando o código:
+
+    function media(n1, n2){
+        var nota1 = n1;
+        var nota2 = n2;
+        var media = (nota1 + nota2) / 2;
+        // console.log(media);
+        return media;
+    }
+        var result1 = media(6, 7);
+        var result2 = media(8, 7);
+        console.log(result1 + " e " + result2)
+  
+    - return media; - retorna o valor media dentro da função?
+    - var result1 = media(6, 7); - função media passa o valor para a var result1
+    - var result2 = media(8, 7); - função media passa o valor para a var result2
+    - console.log(result1 + " e " + result2) - printa as var restult1 e result2
+ -->

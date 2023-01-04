@@ -1,0 +1,38 @@
+<html>
+    <body> 
+        <script>
+            var numero = parseInt(prompt("digite um numero"));
+            var dobro = numero + numero
+            alert("O dobro de " + numero + " é " + dobro);
+  
+        </script>
+    </body>
+</html>
+
+<!-- 
+    Podemos também pedir dados de numeros:
+
+    ex do cod:
+        var numero = prompt("digite um numero");
+        alert("Você digitou o numero " +  numero);
+            printa: Você digitou o numero x
+    
+    Se tentarmos dobrar o numero informado pelo usuario:
+
+    ex do cod:
+        var numero = prompt("digite um numero");
+        var dobro = numero + numero;
+        alert("O dobro de " + numero + " é " + dobro);
+            printa: xx
+    observe que o numero recebido pelo usuario é STRING, logo a soma da var dobro, 
+    concatena, e não soma como ordenamos.
+
+    IMPORTANTE
+    -  o prompt sempre retorna valores em string.
+    
+    A maneira de contornar é inserindo o prompt dentro de um parseint ou parsefloat:
+    ficando:
+        - parseInt(prompt("Digite um numero"))
+    Após isto, a var dobro irá dobrar o numero como estamos querendo, pois o parseInt
+    transformou os string-numeros do prompt em numeros inteiros.   
+ -->

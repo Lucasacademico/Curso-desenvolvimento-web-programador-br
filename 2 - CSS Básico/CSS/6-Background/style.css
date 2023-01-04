@@ -1,0 +1,69 @@
+body{
+
+}
+
+#principal{
+	color:red;
+	background: url(../../Fundos/fundo-1.PNG) center/cover no-repeat fixed ;
+	/*background-image: url(../../Fundos/fundo-1.PNG);*/
+	/*background-repeat: no-repeat;*/
+	/*background-attachment: fixed;*/
+	/*background-position: center;*/
+	/*background-size: cover;*/
+
+}
+
+#titulo{
+	color:rgba(0, 100, 200, 0.6);
+}
+
+.texto-verde{
+	color:green;
+}
+
+
+
+/*
+Aula 6 - Background
+
+Modos de inserir background por cor: 
+- background-color: nome da cor;
+- background-color: rgb(22, 33, 100);
+- background-color: rgba(22, 33, 100, 0.1);
+- background-color: #FFFF;
+
+Modos de inserir imagens background: ;
+Caso na mesma pasta: 
+- background-image: url(/nomedapasta/nomedoarquivodeimagem);
+Caso em uma pasta diferente: 
+- background-image: url(../nomedapasta/nomedoarquivodeimagem);
+OBS: os pontos indicam que o arquivo esta um nivel anterior
+
+Para não repetir a imagem: 
+- background-repeat: no-repeat; - para não repetir a imagem
+- background-repeat: repeat-y; - para repetir a imagem somente na vertical
+- background-repeat: repeat-x; - para repetir a imagem somente na horizontal
+OBS: deve ser utilizado logo abaixo do background-image.
+
+Para cobrir a imagem em toda a pagina: 
+- background-size: cover;
+
+Para deixar a imagem fixa: ;
+- background-attachment: fixed; 
+OBS:  Esta opção deixa a imagem fixa, e quando scrolamos a pagina, a imagem nao se move.
+
+Para deixar o background rolar junto com a página: 
+- background-attachment: scroll; 
+
+Para deixar o background rolar junto com o elemento: 
+- background-attachment: local; 
+
+Para centralizar o background:
+ - background-position: center;
+
+ Todas os elementos do backgroud podem ser inseridos em uma única linha: ;
+ ex: - background: url(../Fundos/fundo-1.PNG) no-repeat fixed center;
+ OBS:  deve seguir a seguinte ordem: background: bg-color bg-image position/bg-size bg-repeat bg-origin bg-clip bg-attachment initial|inherit;
+
+
+*/

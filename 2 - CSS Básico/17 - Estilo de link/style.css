@@ -1,0 +1,38 @@
+.links{
+	text-decoration: none;
+	color: red;
+	cursor: crosshair;
+	background: red;
+	padding: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 10px;
+	border: 2px solid red;
+
+	/*Esta é configuração do botão do link*/
+}
+
+.links:visited{
+	/*aqui eu posso configurar a aparencia do botão após ser visitado*/
+}
+
+.links:active{
+	/*aqui eu posso configurar a aparencia do botão no momento que é clicado*/
+}
+
+.links:hover{
+	/*aqui eu posso configurar a aparencia do botão no momento que o mouse esta em cima 
+	do botão*/
+}
+
+/*
+Aula 17 - Estilo de link
+
+- cursor: crosshair; > faz com que o cursor fique em formato de cruz quando o mouse
+ficar em cima do link.
+
+
+	Para mais dicas:
+
+	https://www.w3schools.com/css/css_link.asp
+*/

@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+}
+
+#card{
+    background-image: url('../assets/background.png');
+    width: 400px;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    padding-left: 20px;
+    padding-top: 1px;
+    box-sizing: border-box;
+}
+
+/*
+- background-image: url('../assets/background.png') - Vai inserir o background do
+cartão que vamos utilizar
+- Width e Heigh - Aqui demarcamos a largura de 400px e altura de 200px, é 
+importante salientar que estas configs são da DIV e não do background-image.
+- Background-size: cover; - Esta linha informa para a imagem do background-image,
+que ela deve cobrir toda a DIV (sem percas, e se adequando).
+- Backgrou-repear - colocamos o no-repet para não repetir a background-image
+- Margin: auto; - Aqui toda a DIV e Background-image recebem uma margem
+automatica, ficando no centro, e se alterando conforme janela (mais sempre
+ficando no centro).
+- padding-left 20px - distância dos textos da Div em 20px para a direita
+- padding-top 1px - distância dos textos da Div em 1px para baixo
+- box-sizing: border-box; - essa linha é muito importante, pois irá corrigir
+tudo o que esta na DIV, para deixar tudo do tamanho certo, sem ter que
+aumentar a background-image (devido as alterações dos margins e paddings).
+*/
+
+li{
+    list-style-type: none;
+    
+}
+
+#instagram{
+    list-style-image: url(../assets/Insta.png);
+}
+
+#twitter{
+    list-style-image: url(../assets/Twitter.png);
+}
+
+#youtube{
+    list-style-image: url(../assets/Youtube.png);
+}
+

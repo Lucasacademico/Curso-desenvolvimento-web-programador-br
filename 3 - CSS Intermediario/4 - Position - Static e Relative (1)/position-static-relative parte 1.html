@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+		<style type="text/css">
+			
+			.quadrado{
+				/*display: inline-block;*/
+				width: 100px;
+				height: 100px;
+			}
+
+			.quadrado-red{
+				background-color: red;
+			}
+
+			.quadrado-blue{
+				position: relative;
+				left: 400px;
+				top: 200px;
+				background-color: blue;
+			}
+
+			.quadrado-green{
+				background-color: green;
+			}
+
+			.quadro{
+				width: 500px;
+				height: 400px;
+				border: 1px solid gray;
+			}
+
+		</style>
+	</head>
+
+	<body>
+
+		<div class="quadro">
+			<div class="quadrado quadrado-red"></div>
+			<div class="quadrado quadrado-blue"></div>
+			<div class="quadrado quadrado-green"></div>
+			<!-- Se altermos as divs quadrado-cor de lugar entre si, a função position relative alteraria seu local relativo também, logo mudaria de local.-->
+		</div>
+
+
+	</body>
+</html>
+
+<!--
+	Position Static e Relative
+- Neste código preparado pra esta aula, 3 quadrados estão dentro de um quadro, um em baixo do outro.
+- inserindo a função display: inline-block; faz com que os quadrados fiquem um do lado do outro
+
+- left: 20px - altera a posição do elemento à 20px de diferença da esquerda
+- top: 20px - altera a posição do elemento à 20px de diferença do topo
+obs: as funções top, left, right, bottom..., apesar de parecida com a margin, são diferentes, pois não criam espaços
+de margem entre outros elementos, logo, dependendo do espaçamento que criarmos, pode sobrepor total ou parcialmente um outro elemento, diferente da margin que apenas cria um espaço de margem entre elementos.
+
+- position: relative; - Um elemento com position: relative; está posicionado em relação à sua posição do código, logo alterar ou inserir outras tags,.
+- position: static; - Um elemento com position: static; não está posicionado de forma especial; é sempre posicionado de acordo com o fluxo normal da página:
+
+obs: conseguimos verificar o alcance de uma tag inspecionando esta tag. Para tags de display block, a largura delas é infinita, ou limitada se tiver dentro de outra tag display block. logo se inserirmos uma tag x após a tag y, o comportamento será que a tag y fique abaixo da tag x. SE transformarmos as tags em
+displays inline, estamos tirando largura infinita, logo a tag x ficará do lado da tag y.
+
+-->

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+		<style type="text/css">
+			
+			.quadrado{
+				width: 100px;
+				height: 100px;
+			}
+
+			.quadrado-red{
+				background-color: red;
+			}
+
+			.quadrado-blue{
+				background-color: blue;
+				position: sticky;
+				top: 0;
+			}
+
+			.quadrado-green{
+				background-color: green;
+			}
+
+			.quadro{
+				width: 500px;
+				height: 4000px;
+				border: 1px solid gray;
+				margin: auto;
+				margin-top: 50px;
+			}
+
+		</style>
+	</head>
+
+	<body>
+
+		<div class="quadro">
+			<div class="quadrado quadrado-red"></div>
+			<div class="quadrado quadrado-blue"></div>
+			<div class="quadrado quadrado-green"></div>
+
+		</div>
+
+
+	</body>
+</html>
+
+<!-- 
+
+A position sticky respeita os elementos próximos, porém no momento que a janela scrollar, ela acompanha a janela com o scroll.
+-->

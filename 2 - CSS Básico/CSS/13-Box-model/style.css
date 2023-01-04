@@ -1,0 +1,60 @@
+body{
+	margin: 0;
+	padding: 0;
+	/* Estamos retirando o margin e padding do boddy para facilitar visualização
+	desta aula. */
+}
+
+/* Estrutura de box model Parte 1*/
+
+.container{
+	background-color: red;
+	padding: 5px;
+	border: 5px solid blue;
+	margin: 10px;
+}
+
+.content{
+	background-color: #ddd;/*cinza*/
+	border: 5px solid green;
+	padding: 5px;
+}
+/*--------------------------*/
+
+
+
+
+/* Estrutura de box model Parte 2*/
+
+.square1{
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+	border: 10px solid blue; 
+	/*a borda vai adicionar mais 10px para cada lado do quadrado, ou seja, adiciona 120px*/
+
+	box-sizing: border-box;
+
+}
+
+.square2{
+	width: 120px;
+	height: 100px;
+	background-color: yellow; 
+	/*square 2 criado para realizar comparativo com square 1*/
+	/*inserido 20px a mais na largura da square 2, para demonstrar que a borda de 10px
+	inserida na square 1 adiciona 20px a mais em todo o quadrado.*/
+}
+
+
+/*Importante: 
+	Caso insiramos um padding de 10px no square1, deveremos aumentar 10px na larg do 
+	square2 para compensar, visto que o padding tbm cria maior espaço no quadrado (sem 
+	perder a cor).
+
+	Caso insirmamos o "box-sizing: border-box;" - força todo quadrado 1 a ficar dentro
+	da altura e largura, ou seja, a borda irá respeitar o tamanho do elemento definido,
+	sem aumentar o quadrado além do pré-definido.
+*/
+/*--------------------------*/
+

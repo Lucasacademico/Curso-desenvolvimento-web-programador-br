@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+		<style type="text/css">
+
+		body{
+			margin: 0;
+			padding: 0;
+		}
+
+		.header{
+			overflow: hidden;
+			margin: auto;
+			width: 80%;
+			background: #5C57A4;
+			padding: 15px;
+			font-size: 18px;
+		}
+
+		.logo{
+			float: left;
+			color: white;
+		}
+
+		.menu{
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			float: right;
+		}
+
+		li{
+			/*display: inline-block;*/
+			float: left;
+			color: white;
+			margin-left: 15px;
+
+		}
+
+		@media screen and (max-width: 700px){
+			.header{
+				background-color: gray;
+			}
+		}
+
+		@media screen and (max-width: 500px){
+
+			.header{
+				background-color: green;
+			}
+
+			.logo{
+				float: none;
+				text-align: center;
+
+			}
+
+			.menu{
+				margin-top: 20px;
+				float: none;
+				text-align: center;
+			}
+
+			li{
+				float: none;
+				/*background-color: red;*/
+				margin-bottom: 5px;
+				padding: 10px;
+			}
+
+		}
+
+
+		</style>
+
+	</head>
+	<body>
+
+		<div class="header">
+			<div class="logo">
+				Logo
+			</div>
+
+			<ul class="menu">
+				<li>Home</li>
+				<li>Cursos</li>
+				<li>Contatos</li>
+				<li>Escritóris</li>
+			</ul>
+		</div>
+
+	</body>
+</html>
+
+<!-- 
+
+Importante: A ordem dos media querries faz com que os background collors se apliquem conforme ordem, logo
+se não fizer sentido, ele não voltará para aplicar
+
+ -->

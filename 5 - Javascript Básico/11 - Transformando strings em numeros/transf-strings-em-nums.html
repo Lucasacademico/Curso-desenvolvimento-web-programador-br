@@ -1,0 +1,47 @@
+<html>
+    <body> 
+        <script>
+
+            var a = "3.5";
+            var b = "6";
+            var c = parseFloat(a) + parseInt(b);
+
+            console.log(c);
+
+        </script>
+    </body>
+</html>
+
+<!-- 
+    Se somarmos dois string-numeros, os valores serão concatenados, e não somados.
+
+    Função parseInt():
+    - transforma um string-numero em um num inteiro..
+
+    ex do cod:
+        var a = "3";
+        var b = "6";
+        var c = parseInt(a) + parseInt(b);
+
+        console.log(c);
+            printa: 9
+
+    observe que o parseInt() transformou as variaveis strings "a" e "b" em numeros inteiros, 
+    logo não concatenou, e SIM somou.
+
+    Importante:
+    - utilizar numeros float no parseint não funcionará, pois o parseInt só entenderá
+    o valor inteiro do numero.
+
+    Função parseFloat():
+
+        ex do cod:
+            var a = "3.5";
+            var b = "6";
+            var c = parseFloat(a) + parseInt(b);
+
+            console.log(c);
+                printa: 9.5
+    Este resultado só é possivel pois utilizamos o parseFloat() que transforma
+    string-numeros em floats.           
+ -->

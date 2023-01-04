@@ -1,0 +1,58 @@
+<html>
+    <body>
+        <script>
+            var aluno = {
+                nome: "Lucas",
+                notas: [5, 10],
+                
+                media: function(n1, n2){
+                    return (n1 + n2) / 2
+                }
+            }
+
+            console.log(aluno.nome);
+            console.log(aluno.media(aluno.notas[0], aluno.notas[1]))
+        </script>
+    </body>
+</html>
+
+<!-- 
+    Objeto - Método:
+    - Método é uma função dentro de um objeto.
+    - O método diferente da função, tem um modo de atribuição diferente.
+
+    Análise do código:
+
+        var aluno = {
+            nome: "Lucas",
+            notas: [5, 10],
+                
+            media: function(n1, n2){
+                return (n1 + n2) / 2
+            }
+        }
+
+            console.log(aluno.nome);
+            console.log(aluno.media(aluno.notas[0], aluno.notas[1]))
+
+    Detalhando o código:
+    - var aluno = {} - objeto aluno criado.
+        - nome: "Lucas", - propriedade do objeto aluno recebendo uma string
+        - notas: [5, 10] - propriedade do obejto aluno recebendo um array para notas.
+    - media: function(n1, n2){} - Método função media com parâmetros n1 e n2
+        - return (n1 + n2) / 2 - Retorno da do método função média.
+    - console.log(aluno.nome); - Printa o dado da propriedade nome
+    - console.log(aluno.media(aluno.notas[0], aluno.notas[1])) - Aqui estamos printando os dados da propriedade
+    notas com seus endereços de memoria, dentro do metodo função, logo estamos printando o calculo da media
+    na função e printando o resultado.
+
+    Obs: Uma boa explicação para facilitar o entendimento do console.log, é da seguinte maneira:
+        - Dentro do console.log():
+            L Acessamos o objeto: console.log(aluno.)
+            L Inserimos o metodo função no objeto: console.log(aluno.media())
+            L Inserimos os dados da propriedade nota array que queremos calcular a média:    
+                console.log(aluno.media(aluno.notas[0], aluno.notas[1]))
+                    ps. 1: é importante que, como estamos acessando uma propriedade array, demarcamos 
+                    também o endereço da memória. 
+        
+ -->

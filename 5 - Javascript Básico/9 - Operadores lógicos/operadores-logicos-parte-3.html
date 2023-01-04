@@ -1,0 +1,26 @@
+<html>
+    <body>
+        <script>
+            var idade = 25
+            var menor10 = idade <= 10
+            var maior65 = idade >= 65
+            var gratuidade = menor10 || maior65
+
+            console.log("idade", idade)
+            console.log("Maior que 65", maior65)
+            console.log("Menor que 10", menor10)
+            console.log("Tem direito a gratuidade !", gratuidade)
+        </script>
+    </body>
+</html>
+
+<!-- 
+    Operadores lógico booelano - (||) OU
+
+    Análise de lógica (||):
+        - Se "idade" <= 10 ou "idade" >= 65, TRUE
+        - Se "idade" > 10 E "idade" < 65, False.
+            - Conforme exemplo, a idade deve estar entre UM dos intervalo, para ser TRUE,
+            Só será falso se AMBOS forem FALSE.
+
+ -->

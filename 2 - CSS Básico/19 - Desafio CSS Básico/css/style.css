@@ -1,0 +1,21 @@
+body{
+	background-color: black;
+}
+
+#card{
+	background-image: url('../assets/background.png');
+	width: 400px; 
+	height: 200px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 1px 20px;
+	margin: auto;
+	margin-top: 10%;
+	box-sizing: border-box;
+}
+
+
+
+li{
+	list-style-type: none;
+}

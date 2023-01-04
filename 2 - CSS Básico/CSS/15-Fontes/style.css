@@ -1,0 +1,46 @@
+p{
+	/*font-family: arial, comic sans ms, sans-serif;*/
+	font-family: helvetica, arial, sans-serif;
+	font-style: italic;
+	/*font-size: 22px;*/
+	font-weight: 900;
+	font-variant: small-caps;
+}
+
+
+/*
+15 - Fontes
+
+Antes de começarmos é importante classificarmos as familias genérica de fonte: Serif, 
+Sans-serif e Monospace.
+
+Familias de fontes: São as fontes propriamente ditas que selecionamos (ex:  arial,
+comic sans, time new roman, e etc).
+
+Fontes de familias: 
+- font-family: arial; - Transforma a fonte no tipo Arial
+OBS: Se inserirmos um tipo de fonte que não existe, ela volta pro padrão;
+
+- font-family: arial, comic sans ms; - podemos inserir uma virgula após a escolha da fonte
+e inserir uma outra fonte, isso informará pro código, que caso o PC dele não possua a config
+da fonte arial, deverá configurar a fonte configurada seguinte, que no caso é "comic sans ms"
+
+Estilos de fonte: ;
+- font-style: italic; - Transforma o estilo da fonte em italica.
+- font-style: normal; - Transforma o estilo da fonte em normal.
+
+Tamanho da fonte:  ;
+- font-size: 12px; - tamanho da fonte em 12px
+
+Grossura da fonte: ;
+- font-weight: bold; - Transforma a fonte em negrito.
+- font-weight: 900; - deixa a fonte mais grossa ainda (0 a 900)
+obs: para algumas familias de fonte, a mudança é no valor da grossura é quase imperceptivel;
+
+Fonte Variante: ;
+- font-variant: small-caps; - Deita todas as fontes em maiuscula, porém, as letras que 
+devem de fato serem maiusculas, ficam maiores que o restante, (como se fosse uma Maiuscula
+das maiusculas).
+
+
+*/

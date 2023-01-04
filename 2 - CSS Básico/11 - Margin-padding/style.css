@@ -1,0 +1,30 @@
+#base{
+	height: 10px;
+	background-color: red;
+}
+
+#container{
+	background-color: blue;
+	color: white;
+	/*margin-top: 10px;*/
+	/*margin-left: 10px;*/
+	/*margin: 10px;*/
+	/*padding: 50px;*/
+}
+
+/*
+
+Aula 11 - Margin e padding
+
+- margin-top: 10px; cria uma margem acima, com distancia de 10px.
+- margin-left: 10px; cria uma margem à esqueda, com distancia de 10px.
+- margin: 10px; cria uma margem entre todos os lados, com distancia de 10px
+obs 1: lembrando que á distância é definida pelo programador;
+obs 2:  cria margem do elemento pra fora;
+
+- padding: 10px; Cria uma margem do elemento pra dentro, com 10px de distancia.
+- padding-top: 10px; mesma coisa, só que cria a margem interna pra cima.
+ex: se um background possui um background, e aplicarmos um padding, o background;
+irá se expandir devido criar uma margem interna das outras tags.
+
+*/

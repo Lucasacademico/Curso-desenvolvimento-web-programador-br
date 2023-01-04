@@ -1,0 +1,24 @@
+Algoritmo
+- Passos finitos em uma ordem pré-definida para resolver problemas.
+- É importante sempre determinar a ordem, e seguir os passos de maneira correta.
+
+Passo a passo de atravessar a rua:
+Antes de atrevessar a rua, realizar os seguintes passos:
+1 - Olhar de um lado para o outro.
+2 - Tem carro vindo?
+L Se sim, atravessar a rua.
+L Se não, retornar ao passo 2.
+3 - Rua atravessada, fim do passo a passo.
+
+Passo a passo de passar o queijo no pão:
+1 - Se o queijo estiver fechado, então
+abrir o queijo. 
+Fim
+2 - Pegar a faca
+3 - Abrir o pão com a favca
+4 - cortar um pedaço do queijo com a faca
+5 - passar o queijo na parte interna do pão com a faca
+6 - largar a faca e comer o pão.
+
+obs 1: Procurar sempre detalhar os passos o máximo possível.
+obs 2: Alterar a ordem pode afetar todo o funcionamento dos passos, logo, os passos devem ter lógica.

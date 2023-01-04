@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Display</title>
+		<style type="text/css">
+			body{
+				font-size: 1.2rem;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<div style="background-color: blue;">
+			<div>Esta é uma DIV normal</div>
+				<div> 
+					E aqui a história
+						<!--1--><div style="background-color: red; width: 500px;">DIV de dentro</div>
+					continua
+				</div>		
+		</div>
+
+		<div>
+			
+			<p style="margin: 0;">Este é um paragrafo normal</p>
+			<p style="margin: 0;">E aqui a historia continua</p>
+
+		</div>
+
+		<p>
+			
+			Aqui eu tenho o inicio de paragrafo <!--2--><span style="background-color: green; width: 500px; display: inline-block"; >um SPAN no meio</span> e o fim do paragrafo.
+
+		</p>
+
+		<p style="background-color: blue;">
+			
+			Aqui eu tenho o inicio de parágrafo<div style="background-color: red;"> uma div no meio</div> e o Fim do paragrafo.
+
+		</p>
+
+		<p>
+			
+			aqui eu tenho o inicio de paragrafo <img src="assets/computer-png.webp" width="100px" height="100px"> e o fim do paragrafo
+
+		</p>
+
+	</body>
+
+</html>
+
+<!--
+
+- Display block - Permite alterações de forma na tag
+- Display inline - Não permite determinadas alterações de forma
+- Display inline block - permite que uma tag de display inline possa ser alterada sua forma
+- Display none - Faz com que retire o elemento demarcado da pagina.
+- Visibility Hidden - Faz o elemento ficar invisivel, porém o espaço do elemento continua sendo ocupado
+
+ 1 - <div style="background-color: red; width: 500px;"> - Aqui eu consigo configurar a largura da div (e altura tbm) para 500px, pois
+ 	a div é um display do tipo block
+
+ 2 - <span style="background-color: green; width: 500px;"> - Aqui eu não consigo configurar a largura da tag span para 500px, pois o SPAN é um display do tipo inline.
+
+ 2 - <span style="background-color: green; width: 500px; display: inline-block"; > Após inserir o display inline block, consigo alterar a largura da tag span para 500px
+
+ IMPORTANTE
+- Não podemos utilizar um elemento do tipo block dentro de um paragrafo, logo <p> dentro de <p> não pode.
+
+ Como verificar qual é o tipo de display de uma tag?
+ - inspecionando o elemnto
+
+-->
+
+

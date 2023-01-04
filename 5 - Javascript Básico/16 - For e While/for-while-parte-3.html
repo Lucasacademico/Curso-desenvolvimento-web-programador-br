@@ -1,0 +1,42 @@
+<html>
+    <body> 
+        <script>
+            var numero = Math.random() * 100
+            
+            while(numero < 90){
+                console.log(numero)
+                numero = Math.random() * 100
+            }
+            console.log(numero)
+            console.log("Cabou")
+        </script>
+    </body>
+</html>
+
+<!-- 
+    Math.random() - Função que gera um numero randomico entre 0 e 1
+
+    Analisando o código:
+
+    var numero = Math.random() * 100
+            
+            while(numero < 90){
+                console.log(numero)
+                numero = Math.random() * 100
+            }
+            console.log(numero)
+            console.log("Cabou")
+    
+    - A função math random * 100 irá randomizar numeros entre 1 e 100.
+    - a função while irá rodar até que o numero seja maior que 89.99
+    - A var numero receberá a função Math.random() * 100, para que tente chegar no valor acima
+    de 89.99
+    - Ao rodar o numero, ocorrerá um BUG, pois nunca aparece o valor que buscamos no final.
+            L isto acontece pois o valor acima 89.99 apenas confirma, e não printa.
+            L podemos resolver isso jogando a linha console.log(numero) após função while.
+    
+    Uma diferença entre FOR e WHILE é que:
+    - For precisa de pelo menos 2 parametros.
+    - While só precisa de um parametro.
+
+ -->

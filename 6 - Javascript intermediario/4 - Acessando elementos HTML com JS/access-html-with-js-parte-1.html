@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <style>
+            .paragrafo{
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+
+        <h1>título</h1>
+        <p class="paragrafo" id="p1">paragrafo 1</p>
+        <p class="paragrafo">paragrafo 2</p>
+        <p>paragrafo 3</p>
+    
+        <script>
+
+        </script>
+    </body>
+</html>
+
+<!--
+    Estrutura do documento:
+    
+    Document:
+        Root Element <html>
+            - Element <head>
+                    > Element <title>
+                    > Text: "My title"
+            - Element <body>
+                > Attribute "href"
+                > Element <a>
+                    -> Text: "My link"
+                > Element <h1>
+                    -> Text: "My header"
+
+    Porém, no formato Javascript:
+    - O Document será um objeto
+    - O <html> será uma propriedade deste objeto
+    - O <body> será uma propriedade do objeto <html>
+    .... e assim por diante
+
+    Logo, podemos acessar <body> ou <head> pelo console com o objeto Documento:
+        - document.body
+        - document.head
+
+    Por questões de explicação, vamos criar um h1, três paragrafos, criar uma classe
+    e uma id para o paragrafo 1, e repetir a classe para o paragrafo 2 (o paragrafo
+    3 ficará sem nada mesmo), depois criaremos uma style com a cor vermelha para a
+    classe paragrafo.
+
+    Pegando o elemento pelo ID:
+    - Como criamos um ambiente para testar esta função, seguiremos da seguinte 
+    maneira:
+        No console:
+            document.getElementById("p1")
+                printa: <p class="paragrafo" id="p1">paragrafo 1</p>
+            
+    Já que será retornado pelo javascript um elemento que é um objeto, podemos 
+    atribuir este elemento dentro de uma variavel:
+        No console: 
+            let p1 = document.getElementById("p1")
+                o elemento da ID "p1", foi atribuida à variavel p1.
+
+    Podemos printar diretamente a variavel p1:
+        No console: 
+            console.log(p1)
+                printa: <p class="paragrafo" id="p1">paragrafo 1</p>
+
+        Perceba, que printa toda a informação do document.getElementById("p1"), porém
+        pela variavel p1.
+
+    Importante salientar, que o metodo getElementById é importante, justamente
+    para acessarmos os elementos por ID, pois fazer algo como:
+
+        document.body.p1, não funciona, logo devemos utilizar o comando acima.
+
+
+
+-->

@@ -1,0 +1,68 @@
+.borda{
+	border-width: 5px 2px 10px 15px;
+	border-style: solid;
+	/*border-color: red;*/
+	border-color: red green blue yellow;
+	/*border-radius: 5px;*/
+	border-radius: 5px; 
+	/*Nesse caso o quadrado irá ficar redondo, e a borda de texto ficará oval e fina*/
+}
+
+.quadrado{
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+}
+
+.dotted{
+	border-style: dotted;
+}
+
+.dashed{
+	border-style: dashed;
+}
+
+.solid{
+	border-style: solid;
+}
+
+.none{
+	border-style: none;
+}
+
+.hidden{
+	border-style: hidden;
+}
+
+/*
+Aula 12 - Borda
+
+- border-width: 5px; - Informa a expessura da borda de 5px
+	L border-width: 5px 2px 10px 15px; podemos alterar a expessura em cada dimensão da borda.
+- border-style: solid; - informa que o tipo da borda é sólida.
+obs: para a borda aparecer na tela deve ser configurado obrigatóriamente a expessura e ;
+	estilo da borda.
+- border-color: red; altera a cor da borda do padrão preto para vermelho
+	L border-color: red green blue yellow; - cada lado de uma borda ficará de uma cor.
+- border-radius: 5px; altera o quanto a borda é arredondada, no caso 5px de arredondamento.
+	L pode ser utilizado porcentagem para arredondar a borda ()
+importante:  se não colocarmos as especificações da borda para aparecer, e inserirmos somente;
+um border-radius 50%, ela estará lá e irá terraformar o elemento que estiver contendo
+esta classe, porém invisivel.
+
+Estilos de borda: ;
+- border-style: dotted; - borda pontuada
+- border-style: dashed; - borda tracejada
+- border-style: solid; - borda cheia
+- border-style: none; - exclui o elemento borda
+- border-style: hidden; - apenas esconde o elemento da borda
+
+- importante:  Sempre que vamos configurar a borda, podemos especificar o posicionamento ;
+da borda, alem da cor, e tamanho, pois podemos expecificar no css se a borda toda será
+configurada, ou apenas uma parte dela (ex: border-top-color: red; apenas a parte de cima
+ficará vermelha).
+
+Importante 2: A maneira mais rápida de configurar uma borda: 
+	ex:  border: 5px dashed blue; - signfica uma borda com 5px de expessura, estilo
+	tracejado, e azul.
+*/

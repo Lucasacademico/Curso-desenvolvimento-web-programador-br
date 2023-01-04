@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Formulario</title>
+	</head>
+	<body>
+		<form method="GET" action="https://www.youtube.com/results">
+			<input type="text" name="search_query"><br>
+			<input type="password" name="senha"><br>
+			<input type="checkbox" name="curso">CSS intermediario<br>
+			<input type="checkbox" name="curso">React Native<br>
+			<input type="radio" name="genero" value="M" checked>Masculino
+			<input type="radio" name="genero" value="F">Feminino
+			<input type="reset" value="Limpar">
+			<input type="submit" value="Enviar">
+		</form>
+	</body>
+</html>
+
+<!-- 
+<input type="checkbox" name="curso"> - Habilita a possibilidade de inserir checkbox para o usuário marcar as opções que desejar.
+OBS: O usuario pode selecionar varias checkbox
+
+<input type="radio" name="genero" value="M" checked> Masculino
+<input type="radio" name="genero" value="F">Feminino
+- o input type radio habilita a possibilidade do usuario selecionar somente uma opção (ex: selecionar o genero)
+OBS: é importante que apenas um "name" esteja para as opções, para o sistema entender que as opções se tratam de uma unica escolha referente a uma pergunta x.
+- O atributo checked (na linha de genero M) significa que a pagina será carregada com uma opção já marcada, cabendo o usuario manter ou trocar a opção.
+
+
+<input type="reset" name=""> - Habilita o botão "reset", cujo objetivo serve para resetar as opções inseridas nas caixas.
+
+<input type="reset" value="Limpar">
+<input type="submit" value="Enviar">
+Importante: Se atribuirmos "value" nos input types "reset e submit", podemos alterar o nome dos botões.
+
+
+
+
+
+ -->

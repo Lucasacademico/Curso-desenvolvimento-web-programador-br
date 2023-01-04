@@ -1,0 +1,23 @@
+
+/*chamada de ID(identificador)*/
+#principal{
+	color:red;
+}
+
+/*chamada de ID(identificador)*/
+#titulo{
+	color:blue;
+}
+
+/*chamada de Classe*/
+.texto_verde{
+	color:green;
+}
+
+
+
+/*
+	Diferença entre Classe e ID: 
+	- Classe pode ser utilizada mais de um elemento
+	- ID é identifica somente um elemento na classe 
+*/
